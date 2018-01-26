@@ -24,7 +24,7 @@ do
 	then
 		spotify vol 0;
 	else
-		spotify vol 80;
+		spotify vol 100;
 	fi
 
 	echo 'next evalutaion in: '`printf "%.*f\n" 1 $(($spotify_total_seconds - $spotify_elapsed_seconds + 0.3))`;
